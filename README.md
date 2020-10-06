@@ -1,1 +1,3 @@
-# glopt
+- Bootstrap grid system
+- BEM
+- CSS3 animations
