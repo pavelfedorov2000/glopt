@@ -1,0 +1,267 @@
+@media (max-width: 1200px)
+    .container
+        padding: 0 15px
+    .header
+        &__menu
+            &-item
+                padding-right: 7px
+            &-link
+                font-size: 14px
+    .main
+        &__wrapper
+            margin-bottom: 60px
+    .contact
+        &-phone
+            &__link
+                font-size: 16px
+    .price
+        &__wrapper
+            margin: 0 auto
+            margin-top: 10px
+        &__item
+           margin: 20px auto
+@media (max-width: 991px)
+    .header
+        justify-content: space-around
+        &__menu
+            position: fixed
+            z-index: 1000
+            display: flex
+            flex-direction: column
+            justify-content: center
+            top: 0
+            right: -100%
+            width: 70%
+            height: 100vh
+            background-color: #ffffff
+            transition: .5s all
+            &_active
+                right: 0
+            &-list
+                flex-direction: column
+            &-item
+                border-right: 0
+                padding-right: 0
+                margin: 15px 0
+            &-link 
+                font-size: 18px
+                color: $main-color
+            .contact
+                display: block
+                margin-top: 20px
+                &-phone
+                    &__descr, &__link
+                        color: #000000
+                        text-align: center
+                .button
+                    margin: 0 auto
+                    margin-top: 10px
+            .close
+                display: flex
+        .hamburger-menu
+            display: flex
+    .main
+        &__suptitle
+            margin-top: 30px
+        &__title
+            font-size: 56px
+        &__subtitle
+            font-size: 40px
+        &__wrapper
+            margin-bottom: 30px
+        &__item
+            margin: 20px 0
+    .work
+        &__item
+            margin: 10px 0
+@media (max-width: 767px)
+    .header
+        position: relative
+        justify-content: space-around
+        &__logo
+            margin-top: 10px
+    .main
+        padding-top: 0
+        &__item
+            margin: 0
+    .advantages
+        &__wrapper
+            margin-top: 30px
+        &__img
+            display: block
+            margin: 30px auto 0
+        &__item
+            margin: 10px
+            &-title
+                margin-top: 20px
+    .price
+        &__item
+            &:hover
+                transform: translateY(0)
+        &__form
+            &-inputs
+                width: 100%
+                justify-content: space-around
+    .round
+        width: 90px
+        height: 90px
+    .form
+        &__input
+            width: 33%
+            padding-left: 7px
+            font-size: 12px
+    .row
+        &_mt
+            margin-top: 0
+    .map
+        &__content
+            position: relative
+            bottom: 0
+            left: 0
+        &__pointer
+            display: none
+        &__info
+            position: absolute
+            bottom: 0
+            left: 0
+            background-image: none
+            width: 100%
+            height: auto
+            background-color: #fff
+            padding: 20px
+            text-align: center
+        &__inner
+            margin: 0 auto
+    .footer
+        &__header
+            &-text 
+                font-size: 14px
+                margin-left: 15px
+    .contact-phone
+        margin-right: 15px
+        &__link
+            font-size: 15px
+    .slider
+        &__inner
+            width: 90%
+        &__prev
+            left: 120px
+        &__next
+            right: 120px
+@media (max-width: 575px)
+    .slider
+        padding: 30px 0
+        &__prev
+            left: 30px
+        &__next
+            right: 30px
+    .header
+        justify-content: flex-start
+        &__logo
+            &-img
+                width: 60px
+        &__menu
+            &-item
+                margin: 10px 0
+        .hamburger-menu
+            position: absolute
+            top: 20px
+            right: 20px
+    .contact
+        flex-direction: column
+        margin: 0 auto
+        display: none
+        &-phone
+            margin: 0 auto
+            margin-bottom: 10px
+            text-align: center
+    .main
+        &__suptitle
+            font-size: 20px
+        &__title
+            font-size: 42px
+        &__subtitle
+            font-size: 24px
+        &__line
+            width: 100%
+        span
+            display: none
+        &__wrapper
+            margin: 20px 0
+        &__item
+            margin: 5px 0
+            &-descr
+                margin-top: 7px
+    .title
+        font-size: 24px
+    .subtitle
+        font-size: 20px
+    .adv
+        &__item
+            flex-direction: column
+            margin-top: 20px
+            &-icon
+                display: block
+                margin: 0 auto
+                &_animated
+                    &-search, &-house, &-globe, &-plane
+                        margin: 0 auto
+            &-title
+                text-align: center
+                margin-top: 10px
+            &-text 
+                margin-left: 0
+            &-descr
+                text-align: center
+    .advantages
+        &__wrapper
+            margin-top: 0px
+        &__subtitle
+            font-size: 18px
+    .price
+        &__wrapper
+            margin-top: 20px
+        &__item
+            margin: 10px auto
+        &__form
+            &-inputs
+                flex-direction: column
+                margin-top: 0
+    .round
+        width: 90px
+        height: 90px
+    .form
+        &__title
+            font-size: 18px
+        &__field
+            padding-top: 0
+            padding-bottom: 20px
+        &__inputs
+            flex-direction: column
+        &__input
+            width: 90%
+            padding-left: 15px
+            margin-top: 15px
+        &__text
+            display: block
+            width: 90%
+            margin: 0 auto 15px
+    .footer
+        &__header
+            flex-direction: column
+            &-text 
+                text-align: center
+                margin: 20px auto
+        &__footer
+            flex-direction: column
+        &__confidencial
+            margin-top: 10px
+        &__developer
+            margin-top: 10px
+    .modal
+        width: 100%
+        height: 30vh
+        &__close
+            top: 10px
+            right: 10px
+            font-size: 30px

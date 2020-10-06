@@ -1,0 +1,40 @@
+.adv
+    width: 100%
+    min-height: 590px
+    background-color: #f3f3f3
+    padding: 57px 0 50px 0
+    &__wrapper
+        margin-top: -5px
+    &__item
+        display: flex
+        align-items: flex-start
+        margin-top: 35px
+        &-text 
+            margin-left: 20px
+        &-title
+            color: $main-color
+            font-size: 16px
+            font-weight: 700
+        &-descr
+            font-size: 14px
+            line-height: 22px
+            color: #3a3a3a
+            margin-top: 5px
+        &-icon
+            &_animated
+                &-search
+                    animation: search 3s ease infinite
+                    &:hover
+                        animation-play-state: paused
+                &-house
+                    animation: house 3s ease infinite
+                    &:hover
+                        animation-play-state: paused
+                &-globe
+                    animation: globe 3s ease infinite
+                    &:hover
+                        animation-play-state: paused
+                &-plane
+                    animation: plane 3s ease infinite
+                    &:hover
+                        animation-play-state: paused
